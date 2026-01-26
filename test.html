@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Coffee Ordering</title>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" method="get">
+            <p>
+                <label for="name">Customer Name:</label>
+                <input type="text" id="name" name="customer_name" />
+            </p>
+            <p>
+                <label for="mail">Email Address:</label>
+                <input type="email" id="mail" name="customer_email" />
+            </p>
+            <p>
+                <label for="coffee">
+                    <span>Coffee type:</span>
+                </label>
+                <select id="coffee" name="customer_coffee">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="americano">Americano</option>
+                    <option value="espresso">Espresso</option>
+                    <option value="bica">Bica</option>
+                    <option value="lungo">Lungo</option>
+                    <option value="oliang">Oliang</option>
+                    <option value="karsk">Karsk</option>
+                </select>
+            </p>
+            <fieldset>
+                <legend>Size:</legend>
+                <p>
+                    <input type="radio" name="size" id="size_1" value="small" />
+                    <label for="size_1">Small</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size_2" value="medium" />
+                    <label for="size_2">Medium</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size_3" value="large" />
+                    <label for="size_3">Large</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Extras:</legend>
+                <p>
+                    <input type="checkbox" id="extra_1" name="extra_whipcream" value="whipcream" />
+                    <label for="extra_1">Whipped Cream</label> 
+                </p>
+                <p>
+                    <input type="checkbox" id="extra_2" name="extra_shot" value="shot" />
+                    <label for="extra_2">Extra Shot</label> 
+                </p>
+                <p>
+                    <input type="checkbox" id="extra_3" name="extra_almond" value="almond" />
+                    <label for="extra_3">Almond Milk</label> 
+                </p>
+                <p>
+                    <input type="checkbox" id="extra_4" name="extra_cinnamon" value="cinnamon" />
+                    <label for="extra_4">Cinnamon</label> 
+                </p>
+                <p>
+                    <input type="checkbox" id="extra_5" name="extra_honey" value="honey" />
+                    <label for="extra_5">Honey</label> 
+                </p>
+                <p>
+                    <input type="checkbox" id="extra_6" name="extra_mint" value="mint" />
+                    <label for="extra_6">Mint</label> 
+                </p>
+            </fieldset>
+            <p>
+                <label for="instruction">Special Instructions:</label>
+                <textarea id="instruction" name="customer_instruction"></textarea>
+            </p>
+            <p class="button">
+                <button type="submit">Submit</button>
+            </p>            
+        </form>        
+    </body>
+</html>
